@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from applicationtest.models import Newuser
 from django.http import HttpResponse
+from django.core.urlresolvers import reverse
 
 # Create your views here.
 def home(request):

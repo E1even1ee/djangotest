@@ -59,11 +59,15 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'djangotest.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.jinja2.Jinja2',
         'DIRS': [JINJA_DIR],
         'APP_DIRS': True,
+        'OPTIONS': {
+            'environment': 'djangotest.jinja.environment'
+        }
     },
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
