@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="584c8db5-5417-4cef-9e6b-fd4bc4a65f1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applicationtest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/applicationtest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applicationtest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/applicationtest/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangotest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangotest/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/applicationtest/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/applicationtest/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="584c8db5-5417-4cef-9e6b-fd4bc4a65f1e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +90,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/applicationtest/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="59" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -779,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/applicationtest/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="59" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
