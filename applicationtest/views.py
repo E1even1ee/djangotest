@@ -1,9 +1,13 @@
 from django.shortcuts import render
 from applicationtest.models import Newuser
+from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return render(request, 'applicationtest/home.html')
+    if request.session.get('has_logged_in', False):
+        return render(request, 'applicationtest/dashboard.html')
+    else:
+        return render(request, 'applicationtest/home.html')
 
 def register(request):
     if request.method == "GET":
@@ -16,7 +20,7 @@ def register(request):
         newuser.last_name = request.POST.get("lastname")
         newuser.email = request.POST.get("email")
         newuser.save()
-        return render(request, 'applicationtest/home.html')
+        return render(request, 'applicationtest/dashboard.html')
 
 def login(request):
     if request.method == "GET":
@@ -26,7 +30,12 @@ def login(request):
         password = request.POST.get("password")
         user = Newuser.objects.get(username=username)
         if password == user.password:
-            return render(request, 'applicationtest/home.html')
+            request.session['has_logged_in'] = True
+            return render(request, 'applicationtest/dashboard.html')
         else:
             request.method = "GET"
-            return render(request, 'applicationtest/login.html')
+            return render(request, 'applicationtest/home.html')
+
+def logout(request):
+    del request.session['has_logged_in']
+    return render(request, 'applicationtest/home.html')
