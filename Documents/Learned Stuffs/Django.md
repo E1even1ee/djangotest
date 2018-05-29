@@ -26,6 +26,9 @@
 			register.html
 	manage.py
 ```
+```
+$ python manage.py runserver
+```
 /djangoproject/djangoproject/urls.py
 ```
 from django.conf.urls import include, url  
@@ -127,4 +130,20 @@ from application_1 import Topic
 admin.site.register(Topic)
 ```
 ### MTV Pattern
+### Django Forms
 
+### Questions
+#### Question 1 `__str__` or `__unicode__`?
+Should I care about the __unicode__ thing and what's this function for
+```
+from django.db import models
+
+class Person(models.Model):
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+
+    def __unicode__(self):
+        return u'%s  %s' % (self.first_name, self.last_name)
+```
+#### Question 2 migrate and makemigrations
+Why the schema in the database could not be changed when running **makemigrations**, and I have to drop the table and create it again via **migrate**
