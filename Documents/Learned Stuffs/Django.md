@@ -30,7 +30,7 @@
 $ python manage.py runserver
 ```
 /djangoproject/djangoproject/urls.py
-```
+```python
 from django.conf.urls import include, url  
 from django.contrib import admin
 
@@ -40,7 +40,7 @@ urlpatterns = [
 ]
 ```
 /djangoproject/application_1/urls.py
-```
+```python
 from django.conf.urls import url  
 from . import views  
   
@@ -49,7 +49,7 @@ urlpatterns = [
 ]
 ```
 /djangoproject/application_1/views.py
-```
+```python
 def index(request):
 	my_dict = {'Whatever Key': 'Contents value'}
     return render(request, 'application_1/index.html', context=my_dict)
@@ -57,7 +57,7 @@ def index(request):
 Within index.html, you can use **{{'Whatever Key'}}** to access the value
 ### Set template path
 /djangoproject/djangoproject/settings.py
-```
+```python
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")  
 STATIC_DIR = os.path.join(BASE_DIR, "static")
@@ -79,14 +79,14 @@ TEMPLATES = [
 ]
 ```
 ### Static contents quick access
-```
+```python
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
 	STATIC_DIR,
 ]
 ```
 Within HTML
-```
+```html
 <img src="{% static "images/***.jpg" %}">
 <link rel="stylesheet" href={% static "css/mystyle.css"%}/>
 ```
@@ -106,7 +106,7 @@ migrate
 ```
 ### Create model
 /djangoproject/application_1/models.py
-```
+```python
 from django.db import models
 
 class Topic(models.Model):
@@ -135,7 +135,7 @@ admin.site.register(Topic)
 ### Questions
 #### Question 1 `__str__` or `__unicode__`?
 Should I care about the __unicode__ thing and what's this function for
-```
+```python
 from django.db import models
 
 class Person(models.Model):

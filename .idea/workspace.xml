@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584c8db5-5417-4cef-9e6b-fd4bc4a65f1e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Documents/Work Diary/28052018.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Work Diary/28052018.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Work Diary/29052018.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Work Diary/29052018.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Work Diary/30052018.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Work Diary/30052018.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangotest/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangotest/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangotest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangotest/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,29 +43,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangotest/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-              <folding>
-                <element signature="e#381#390#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jinja2/applicationtest/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,16 +80,13 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9f6f20a1-543f-4be1-966a-1847ce4d441b/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9f6f20a1-543f-4be1-966a-1847ce4d441b/console_1.sql" />
         <option value="$PROJECT_DIR$/applicationtest/admin.py" />
-        <option value="$PROJECT_DIR$/djangotest/urls.py" />
         <option value="$PROJECT_DIR$/templates/applicationtest/register.html" />
         <option value="$PROJECT_DIR$/applicationtest/models.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9f6f20a1-543f-4be1-966a-1847ce4d441b/console_2.sql" />
         <option value="$PROJECT_DIR$/templates/applicationtest/login.html" />
         <option value="$PROJECT_DIR$/templates/applicationtest/home.html" />
-        <option value="$PROJECT_DIR$/applicationtest/urls.py" />
         <option value="$PROJECT_DIR$/applicationtest/views.py" />
         <option value="$PROJECT_DIR$/djangotest/jinja2.py" />
-        <option value="$PROJECT_DIR$/djangotest/settings.py" />
         <option value="$PROJECT_DIR$/djangotest/jinja.py" />
         <option value="$PROJECT_DIR$/static/login.css" />
         <option value="$PROJECT_DIR$/jinja2/applicationtest/login.html" />
@@ -116,6 +94,9 @@
         <option value="$PROJECT_DIR$/jinja2/applicationtest/home.html" />
         <option value="$PROJECT_DIR$/jinja2/applicationtest/dashboard.html" />
         <option value="$PROJECT_DIR$/jinja2/applicationtest/register.html" />
+        <option value="$PROJECT_DIR$/applicationtest/urls.py" />
+        <option value="$PROJECT_DIR$/djangotest/urls.py" />
+        <option value="$PROJECT_DIR$/djangotest/settings.py" />
       </list>
     </option>
   </component>
@@ -142,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,13 +311,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.2678002" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.36238045" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.1477152" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.36238045" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" weight="0.45696068" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.084375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13541667" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.09211554" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -354,29 +335,29 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="manage.py@djangotest" order="13" weight="0.44633368" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.23910733" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3127148" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1264637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1264637" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32943678" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.09211554" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49947917" weight="0.45696068" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005208" side_tool="true" weight="0.2678002" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="manage.py@djangotest" order="13" weight="0.44633368" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.23910733" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.09211554" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32943678" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,9 +378,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/djangotest/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangotest/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -547,13 +525,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9f6f20a1-543f-4be1-966a-1847ce4d441b/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangotest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/applicationtest/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -597,9 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,16 +621,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/applicationtest/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applicationtest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/login.css" />
     <entry file="file://$PROJECT_DIR$/static/css/applicationtest/login.css">
@@ -686,9 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangotest/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding>
-            <element signature="e#381#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jinja2/applicationtest/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -716,10 +658,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/envs/python2/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applicationtest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangotest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangotest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#381#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jinja2/applicationtest/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>
