@@ -187,7 +187,7 @@ h1 {
     color: rgba(0,0,0,0.8);
 }
 ```
-rgba(0,0,0,0.8)` is saying red=“0”, green=“0”, blue=“0”, alpha=“0.8”, which, all together, makes it 80% black.
+rgba(0,0,0,0.8) is saying red=“0”, green=“0”, blue=“0”, alpha=“0.8”, which, all together, makes it 80% black.
 ```css
 #smut { color: hsl(36, 100%, 50%) }
 ```
