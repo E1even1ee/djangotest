@@ -19,6 +19,7 @@ def register(request):
         newuser.last_name = request.POST.get("lastname")
         newuser.email = request.POST.get("email")
         newuser.save()
+        request.session['has_logged_in'] = True
         return render(request, 'applicationtest/dashboard.html')
 
 def alter(request):
@@ -32,6 +33,7 @@ def alter(request):
         newuser.last_name = request.POST.get("lastname")
         newuser.email = request.POST.get("email")
         newuser.save()
+        request.session['has_logged_in'] = True
         return render(request, 'applicationtest/dashboard.html')
 
 def login(request):

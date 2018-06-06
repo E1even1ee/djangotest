@@ -136,7 +136,7 @@ CELERY_IMPORTS = ("applicationtest.tasks")
 from datetime import timedelta
 
 CELERYBEAT_SCHEDULE = {
-    'Sync-every-20-seconds': {
+    'Sync-every-30-seconds': {
         'task': 'backgroundSync',
         'schedule': timedelta(seconds=30),
     },
