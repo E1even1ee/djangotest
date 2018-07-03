@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+np.set_printoptions(threshold=np.nan)
+
 ## (1) read
 img = cv2.imread("sample/sample_1.jpg")
 
